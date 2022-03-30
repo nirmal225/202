@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.buttons-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.popup-logout-content {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1e293b;
+  text-align: center;
+}
+
+.logout-dark {
+  color: #f1f1f1;
+}
+
+.cancel-button {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #1e293b;
+}
+
+.confirm-button {
+  border: none;
+  outline: none;
+  padding: 10px 20px 10px 20px;
+  color: #f1f1f1;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #3b82f6;
+}

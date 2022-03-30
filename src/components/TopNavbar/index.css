@@ -1,0 +1,133 @@
+.top-nav-content {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .top-nav-content {
+    padding: 15px;
+  }
+}
+
+.top-nav-content-dark {
+  background-color: #212121;
+}
+
+.top-nav-responsive-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .top-nav-responsive-container {
+    width: 93%;
+  }
+}
+
+.nav-icons-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0;
+}
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-item-dark {
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-icons-container {
+    display: none;
+  }
+}
+
+.nav-website-logo {
+  width: 110px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-website-logo {
+    width: 130px;
+  }
+}
+
+.nav-item-container {
+  display: flex;
+  align-items: center;
+}
+
+.theme-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.sun-icon {
+  color: #ffffff;
+}
+
+.profile-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-image {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    margin-left: 20px;
+  }
+}
+
+.hamburger-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
+  background-color: transparent;
+}
+
+.hamburger-dark {
+  color: #ffffff;
+}
+
+.ham-nav-item {
+  width: 28px;
+  height: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .ham-nav-item {
+    display: none;
+  }
+}
+
+.logout-button {
+  font-size: 15px;
+  color: #3b82f6;
+  font-weight: 500;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 4px 13px 4px 13px;
+  border: 1px solid #3b82f6;
+  background-color: transparent;
+}
+
+.logout-dark {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}

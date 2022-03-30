@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+}
+
+.video-details-app-container {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  background-color: #f4f4f4;
+  flex-direction: column;
+}
+
+.video-details-app-dark {
+  background-color: #0f0f0f;
+}
+
+.app-container {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    flex-grow: 1;
+  }
+}
+
+.video-details-container {
+  display: flex;
+  flex-grow: 1;
+  background-color: #f4f4f4;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .video-details-container {
+    padding: 60px;
+  }
+}
+
+.video-details-dark {
+  background-color: #181818;
+}
+
+.react-player {
+  width: 100%;
+  flex-grow: 1;
+  border: 1px solid #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .react-player {
+    height: 60%;
+  }
+}
+
+.video-details-title {
+  padding: 0 20px 0 20px;
+  font-size: 18px;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .video-details-title {
+    padding: 0;
+  }
+}
+
+.video-details-title-dark {
+  color: #f4f4f4;
+}
+
+.views-time-items-container {
+  display: flex;
+  color: #94a3b8;
+  padding: 0 20px 0 20px;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .views-time-items-container {
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.views-time-item-dark {
+  color: #7e858e;
+}
+
+.views-time-container {
+  display: flex;
+  align-items: center;
+}
+
+.details-views-count {
+  margin-right: 20px;
+}
+
+.like-dislike-videos-container {
+  display: flex;
+  align-items: center;
+}
+
+.like-container {
+  border: none;
+  outline: none;
+  display: flex;
+  font-size: 18px;
+  cursor: pointer;
+  color: #64748b;
+  margin-right: 6px;
+  align-items: center;
+  background-color: transparent;
+}
+
+.dislike-container {
+  border: none;
+  outline: none;
+  display: flex;
+  font-size: 18px;
+  cursor: pointer;
+  color: #64748b;
+  margin-right: 6px;
+  align-items: center;
+  background-color: transparent;
+}
+
+.save-container {
+  border: none;
+  outline: none;
+  display: flex;
+  font-size: 18px;
+  cursor: pointer;
+  color: #64748b;
+  margin-right: 6px;
+  align-items: center;
+  background-color: transparent;
+}
+
+.is-active {
+  color: #2563eb;
+}
+
+.like-image {
+  margin-right: 8px;
+}
+
+.like-content {
+  margin-left: 8px;
+}
+
+.line {
+  width: 95%;
+  color: #7e858e;
+  margin-bottom: 20px;
+  padding: 0 20px 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    width: 100%;
+  }
+}
+
+.profile-name-description-container {
+  display: flex;
+  padding: 0 20px 0 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.video-profile-image {
+  width: 100px;
+}
+
+.name-subscribers-description-container {
+  padding: 0;
+}
+
+.channel-name {
+  color: 1e293b;
+  margin: 0;
+}
+
+.channel-dark {
+  color: #f8fafc;
+}
+
+.subscriber-count {
+  color: #94a3b8;
+}
+
+@media screen and (min-width: 768px) {
+  .subscriber-count {
+    color: #7e858e;
+  }
+}
+
+.video-description {
+  color: #1e293b;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.video-description-dark {
+  color: #f4f4f4;
+}
+
+.video-details-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.video-details-failure-image {
+  width: 290px;
+  height: 250px;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .video-details-failure-image {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.video-details-retry-button {
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 8px 25px 8px 25px;
+  background-color: #4f46e5;
+}
+
+.video-details-failure-heading {
+  color: #1e293b;
+  font-size: 21px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-failure-heading {
+    font-size: 30px;
+  }
+}
+
+.video-details-failure-dark {
+  color: #f9f9f9;
+}
+
+.video-details-failure-paragraph {
+  color: #94a3b8;
+  text-align: center;
+  font-size: 18px;
+}

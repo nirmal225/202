@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.trending-app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    flex-grow: 1;
+  }
+}
+
+.trending-videos-container {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+
+.trending-videos-container-dark {
+  background-color: #0f0f0f;
+}
+
+.trending-videos {
+  width: 100%;
+  padding: 20px 0 20px 30px;
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.trending-videos-dark {
+  background-color: #181818;
+}
+
+.trending-loader-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trending-videos-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding-left: 0;
+}

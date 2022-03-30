@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.not-fond-videos-app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.not-found-app-dark {
+  background-color: #181818;
+}
+
+.app-container {
+  display: flex;
+}
+
+.not-fond-videos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.not-found-image {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    width: 450px;
+    height: 450px;
+  }
+}
+.not-found-heading {
+  font-size: 22px;
+  color: #1e293b;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+}
+.not-found-heading-dark {
+  color: #f9f9f9;
+}
+
+.not-found-paragraph {
+  width: 90%;
+  color: #94a3b8;
+  text-align: center;
+  font-size: 18px;
+}
+
+.not-found-paragraph {
+  font-size: 18px;
+}
